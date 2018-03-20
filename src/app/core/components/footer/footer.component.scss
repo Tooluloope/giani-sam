@@ -1,0 +1,187 @@
+.intro-2 {
+    background: url("https://res.cloudinary.com/dn1b66xo5/image/upload/c_scale,q_auto:best,w_1980/v1518596184/variety-tomatoes.jpg.838x0_q80_fbsabk.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.btn .fa {
+    margin-left: 3px;
+}
+
+h6 {
+    line-height: 1.7;
+}
+
+@media (max-width: 450px) {
+    .margins {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 100vh !important;
+    }
+}
+
+.hm-stylish-strong .full-bg-img,
+.hm-stylish-strong .mask {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.btn-floating {
+    z-index: 1;
+    overflow: hidden;
+    width: 47px;
+    height: 47px;
+    padding: 0;
+    border-radius: 50%;
+    -webkit-transition: .3s;
+    transition: .3s;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+    vertical-align: middle;
+}
+
+.my-1 {
+    margin-bottom: .25rem!important;
+}
+
+.btn-floating i {
+    width: inherit;
+    font-size: 1.25rem;
+    line-height: 47px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+}
+
+.btn-li {
+    background-color: #0082CA;
+}
+
+.btn-ins {
+    background-color: #2E5E86;
+}
+
+.btn-tw {
+    background-color: #55ACEE;
+}
+
+.btn-tw:focus,
+.btn-tw:hover {
+    background-color: #6cb7f0;
+}
+
+.btn-fb:focus,
+.btn-fb:hover {
+    background-color: #4264aa;
+}
+
+.btn-li:focus,
+.btn-li:hover {
+    background-color: #0092e4;
+}
+
+.btn-ins:focus,
+.btn-ins:hover {
+    background-color: #356b99;
+}
+
+.btn-floating:hover {
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+}
+
+.color {
+    background-color: #292c35;
+}
+
+.btn-fb {
+    background-color: #3B5998;
+}
+
+.bot {
+    padding-top: 15px;
+}
+
+@media (max-width: 991px) {
+    .align {
+        text-align: left !important;
+    }
+    .vl {
+        border-bottom: solid rgba(255, 255, 255, .1) 1px;
+        border-right: 0;
+        margin-top: 20px;
+    }
+    .last {
+        margin-top: 20px;
+    }
+}
+
+.vl {
+    border-right: solid rgba(255, 255, 255, .1) 1px;
+}
+
+@media (max-width: 991px) {
+    .align {
+        text-align: left !important;
+    }
+}
+
+.nodes li a {
+    color: white;
+    font-size: 15px;
+}
+
+.only li :hover {
+    color: rgb(162, 194, 61) !important;
+    padding-left: 10px;
+    transition: 200ms;
+}
+
+.nodes .fa {
+    color: rgb(162, 194, 61);
+}
+
+.nodes {
+    text-align: left;
+    margin-left: 0;
+}
+
+.add {
+    background-color: rgb(162, 194, 61);
+    color: white !important;
+    border-radius: 5px;
+}
+
+.one {
+    width: 31px;
+    padding: 8px;
+}
+
+.two {
+    padding: 8px;
+}
+
+.three {
+    width: 31px;
+    padding: 8px;
+}
+
+.list {
+    margin-bottom: 10px;
+}
+
+li span {
+    font-size: 14px;
+}
+
+.vh {
+    border-top: solid rgba(255, 255, 255, .1) 1px;
+}

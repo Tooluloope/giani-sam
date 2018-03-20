@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.md-form .prefix {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+h6 {
+    line-height: 1.7;
+}
+
+@media (min-width: 740px) {
+    .full-height,
+    .full-height body app-home,
+    .full-height app-home header,
+    .full-height app-home header .view {
+        height: 120vh;
+    }
+}
+
+@media (min-width: 740px) {
+    .full-height,
+    .full-height body app-about,
+    .full-height app-about header,
+    .full-height app-about header .view {
+        height: 120vh;
+    }
+}
+
+@media (min-width: 740px) {
+    .full-height app-footer footer,
+    .full-height app-footer footer .view {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height app-home header,
+    .full-height app-home header .view {
+        height: 1500px;
+    }
+}
+
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height app-about header,
+    .full-height app-about header .view {
+        height: 1500px;
+    }
+}
+
+header section {
+    overflow: scroll;
+}

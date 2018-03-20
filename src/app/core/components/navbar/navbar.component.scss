@@ -1,0 +1,37 @@
+.nav-margin-right {
+    margin-right: 50px;
+}
+
+mdb-navbar {
+    z-index: 10000;
+}
+
+a {
+    font-weight: bold;
+}
+
+.nav-margin-left {
+    margin-left: 50px;
+}
+
+.active {
+    background-color: #92b23e !important;
+    padding: 0 10px;
+}
+
+.active a {
+    color: white !important;
+}
+
+.nav-link {
+    background-color: transparent !important;
+}
+
+a.icons {
+    color: #92b23e !important;
+    margin-right: 5px;
+}
+
+nav {
+    padding-top: 10px;
+}

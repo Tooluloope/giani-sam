@@ -1,0 +1,50 @@
+<nav>
+    <mdb-navbar SideClass="navbar navbar-expand-lg navbar-light white fixed-top scrolling-navbar">
+
+        <!-- Navbar brand -->
+        <logo>
+            <a class="navbar-brand" routerLink="/"><img style="width:124px;" src="https://res.cloudinary.com/dn1b66xo5/image/upload/q_auto:best/v1518651312/20180215_003420_vuzpva.jpg"></a>
+        </logo>
+
+        <!-- Collapsible content -->
+        <links>
+
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto ">
+                <li class="nav-item  nav-margin-right" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                    <a routerLink="/" class="nav-link waves-light" mdbRippleRadius>Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item nav-margin-right" routerLinkActive="active">
+                    <a routerLink="shop" class="nav-link waves-light" mdbRippleRadius>Shop</a>
+                </li>
+                <li class="nav-item nav-margin-right" routerLinkActive="active">
+                    <a routerLink="faq" class="nav-link waves-light" mdbRippleRadius>FAQ</a>
+                </li>
+                <li class="nav-item nav-margin-right" routerLinkActive="active">
+                    <a routerLink="forum" class="nav-link waves-light" mdbRippleRadius>Forum</a>
+                </li>
+                <li class="nav-item nav-margin-right" routerLinkActive="active">
+                    <a routerLink="about" class="nav-link waves-light" mdbRippleRadius>About Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link waves-light icons" mdbRippleRadius><i class=" fa-lg fa fa-phone-square" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="gianisam@gmail.com" class="nav-link waves-light icons" mdbRippleRadius><i class="fa-lg fa fa-envelope-o" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav pull-right ">
+                <li class="nav-item" routerLinkActive="active">
+                    <a routerLink="signup" class="nav-link waves-light" mdbRippleRadius>SignUp</a>
+                </li>
+            </ul>
+            <!-- Links -->
+
+            <!-- Search form -->
+
+        </links>
+        <!-- Collapsible content -->
+
+    </mdb-navbar>
+</nav>
